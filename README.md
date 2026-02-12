@@ -27,7 +27,7 @@ dotnet build
 dotnet run
 ```
 
-The application will start and be available at `https://localhost:5001` (or `http://localhost:5000`).
+The application will start and be available at `https://localhost:7060` (or `http://localhost:5090`).
 
 ### Development
 
