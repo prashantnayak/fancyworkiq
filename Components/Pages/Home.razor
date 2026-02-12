@@ -2,6 +2,165 @@
 
 <PageTitle>Home</PageTitle>
 
-<h1>Hello, world!</h1>
+<div class="container mt-4">
+    <h1 class="display-4">Welcome to FancyWorkIQ! 🚀</h1>
+    
+    <p class="lead">
+        A modern Blazor Web App starter template for building interactive web applications with .NET 10.
+    </p>
 
-Welcome to your new app.
+    <hr class="my-4" />
+
+    <div class="row">
+        <div class="col-md-8">
+            <h2>What is WorkIQ?</h2>
+            <p>
+                WorkIQ (FancyWorkIQ) is a <strong>Blazor Server</strong> application that provides a solid foundation 
+                for rapid web application development. Built with **.NET 10** and **Bootstrap 5**, it offers:
+            </p>
+            
+            <ul class="list-group list-group-flush mb-4">
+                <li class="list-group-item">
+                    <strong>⚡ Real-time Interactivity:</strong> Server-side Blazor provides instant UI updates without page refreshes
+                </li>
+                <li class="list-group-item">
+                    <strong>🎨 Modern UI:</strong> Bootstrap 5 for responsive, mobile-friendly design
+                </li>
+                <li class="list-group-item">
+                    <strong>🧩 Component-Based:</strong> Reusable components for maintainable code
+                </li>
+                <li class="list-group-item">
+                    <strong>🔧 Full-Stack C#:</strong> Write both client and server code in C#
+                </li>
+            </ul>
+
+            <h2>Getting Started</h2>
+            <p>Explore the sample pages to see WorkIQ in action:</p>
+            
+            <div class="row g-3 mb-4">
+                <div class="col-md-6">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">📊 Counter Demo</h5>
+                            <p class="card-text">See Blazor's reactivity with an interactive counter example.</p>
+                            <a href="/counter" class="btn btn-primary">Try Counter →</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">🌤️ Weather Display</h5>
+                            <p class="card-text">Learn how to work with data and display it in Blazor.</p>
+                            <a href="/weather" class="btn btn-primary">View Weather →</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <h2>Quick Start Guide</h2>
+            <div class="alert alert-info" role="alert">
+                <h5 class="alert-heading">📖 Check the README</h5>
+                <p class="mb-0">
+                    For detailed instructions on how to use WorkIQ in your project, including creating components, 
+                    working with data, and deploying to production, see the 
+                    <a href="https://github.com/prashantnayak/fancyworkiq/blob/main/README.md" class="alert-link" target="_blank">
+                        comprehensive README guide
+                    </a>.
+                </p>
+            </div>
+
+            <h3>Key Features</h3>
+            <div class="row g-2 mb-3">
+                <div class="col-md-4">
+                    <div class="p-3 border bg-light rounded">
+                        <strong>Components</strong><br />
+                        <small>Reusable UI elements</small>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="p-3 border bg-light rounded">
+                        <strong>Routing</strong><br />
+                        <small>Navigation & URLs</small>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="p-3 border bg-light rounded">
+                        <strong>Data Binding</strong><br />
+                        <small>Two-way binding</small>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="p-3 border bg-light rounded">
+                        <strong>Dependency Injection</strong><br />
+                        <small>Service registration</small>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="p-3 border bg-light rounded">
+                        <strong>Forms & Validation</strong><br />
+                        <small>Built-in form handling</small>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="p-3 border bg-light rounded">
+                        <strong>State Management</strong><br />
+                        <small>Component state</small>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="card bg-light">
+                <div class="card-body">
+                    <h5 class="card-title">🎯 Quick Commands</h5>
+                    <pre class="bg-dark text-light p-2 rounded"><code># Run the app
+dotnet run
+
+# Watch mode
+dotnet watch run
+
+# Build project
+dotnet build
+
+# Run tests
+dotnet test</code></pre>
+                </div>
+            </div>
+
+            <div class="card bg-light mt-3">
+                <div class="card-body">
+                    <h5 class="card-title">📚 Resources</h5>
+                    <ul class="list-unstyled">
+                        <li class="mb-2">
+                            <a href="https://learn.microsoft.com/aspnet/core/blazor/" target="_blank">
+                                📖 Blazor Documentation
+                            </a>
+                        </li>
+                        <li class="mb-2">
+                            <a href="https://learn.microsoft.com/dotnet/" target="_blank">
+                                📖 .NET Documentation
+                            </a>
+                        </li>
+                        <li class="mb-2">
+                            <a href="https://github.com/AdrienTorris/awesome-blazor" target="_blank">
+                                ⭐ Awesome Blazor
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="card bg-primary text-white mt-3">
+                <div class="card-body">
+                    <h5 class="card-title">💡 Pro Tip</h5>
+                    <p class="card-text">
+                        Use <code>@inject</code> to access services in your components and 
+                        <code>@code</code> blocks for C# logic. Keep components small and focused!
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
